@@ -10,7 +10,7 @@
   <body>
     <div class="card m-4"> 
       <div class="card-body">
-        <table class="table table-dark table-striped">
+        <table class="table thead-dark table-striped">
           <tr>
               <td>ID</td>
               <td>Descrição</td>
