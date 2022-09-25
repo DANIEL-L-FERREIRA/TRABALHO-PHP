@@ -21,11 +21,11 @@
           </div>
           <div class="mb-3">
             <label for="estoque" class="form-label">Estoque:</label>
-            <input type="text" class="form-control" id="estoque" name="estoque">
+            <input type="int" class="form-control" id="estoque" name="estoque">
           </div>
           <div class="mb-3">
             <label for="preco" class="form-label">Preço:</label>
-            <input type="text" class="form-control" id="preco" name="preco">
+            <input type="float" class="form-control" id="preco" name="preco">
           </div>
           <div class="mb-3 ">
             <input type="submit" class="form-control w-25 bg-primary">

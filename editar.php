@@ -29,7 +29,7 @@
           </div>
           <div class="mb-3">
             <label for="estoque" class="form-label">Estoque:</label>
-            <input type="float" class="form-control" id="estoque" name="estoque" value="<?=$usuario['estoque']?>">
+            <input type="int" class="form-control" id="estoque" name="estoque" value="<?=$usuario['estoque']?>">
           </div>
           <div class="mb-3">
             <label for="preco" class="form-label">Preço:</label>

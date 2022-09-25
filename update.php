@@ -7,7 +7,7 @@
     $estoque = $_POST['estoque'];
     $preco = $_POST['preco'];
 
-    $sql = "UPDATE produtos SET descricao = '.$descricao.', marca = '.$marca.', estoque = '.$estoque.', preco = '.$preco.' WHERE id = ".$id."";
+    $sql = "UPDATE produtos SET descricao = '$descricao', marca = '$marca', estoque = '$estoque', preco = '$preco' WHERE id = ".$id."";
     if(mysqli_query($conexao, $sql))
     {
         echo "<span style='color:red;'> <b> Produto Atualizado com Sucesso!!! </b> </span>"; ;
